@@ -1,0 +1,47 @@
+.header__slider {
+    margin: 32px 150px 0 680px
+    
+}
+
+.carousel slide {
+width:50%;
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    /* z-index: 1; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* width: 15%; */
+    /* padding: 0; */
+    color: rgb(31, 31, 31);
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    /* opacity: .5; */
+    /* transition: opacity .15s ease; */
+    /* flex-direction: row; */
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+    font-size: var(--bs-pagination-font-size);
+    color: #0e0f0f;
+    text-decoration: none;
+    background-color: #0f0e0e;
+    border: var(--bs-pagination-border-width) solid #151616;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.disabled {
+    width: 30px;
+height: 8px;
+    list-style-type: none;
+}
+

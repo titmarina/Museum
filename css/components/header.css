@@ -1,7 +1,7 @@
 .header {
   background: black;
   max-width: 1920px;
-
+  min-height: 842px;
 }
 
 .header__logo {
@@ -23,6 +23,7 @@
 .header__menu {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .header__navigation {
@@ -44,4 +45,60 @@
   letter-spacing: 2px;
   color: #ffffff;
   text-decoration: none;
+}
+
+
+.header__title-group {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 80px;
+}
+
+.header__title {
+
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.header__subtitle {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 2px;
+color: #FFFFFF;
+
+}
+
+.header__button {
+  width: 360px;
+height: 75px;
+margin-top: 75px;
+
+background: #710707;
+border-radius: 10px;
+}
+
+.header__button-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+justify-content: center;
+text-align: center;
+letter-spacing: 2px;
+color: #FFFFFF;
+text-decoration: none;
 }
