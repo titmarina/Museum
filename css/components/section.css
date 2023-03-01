@@ -1,43 +1,64 @@
 main {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .virtual__tour {
-    max-width: 1920px;
-    margin: 0 auto; 
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .virtual__tour__wrapper {
-    margin-left: 240px;
-    margin-right: 240px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
 
-
 .virtual__tour-title {
-    margin-top: 75px;
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-   color: #9D8665;
-    
-    
+  margin-top: 75px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
 }
 
 .virtual__tour-line {
-max-width: 1440px;
-height: 3px;
-background: #710707;
-border-radius: 0px;
+  max-width: 1440px;
+  height: 3px;
+  background: #710707;
+  border-radius: 0px;
 }
 
 .wrapper__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+
+.virtual__tour_title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+}
+
+.virtual__tour_sabtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+ }
+
+.virtual__tour__line {
+  width: 300px;
+  height: 2px;
+  background: #710707;
+  border-radius: 0px;
+}
