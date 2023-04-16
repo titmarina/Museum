@@ -1,0 +1,37 @@
+.expert {
+  max-width: 1920px;
+  margin-top: 75px;
+  background: black;
+}
+
+.expert_title-wrapper {
+  margin-left: 240px;
+}
+
+.expert_title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+.expert_line {
+  width: 660px;
+  height: 3px;
+  left: 0px;
+  top: 115px;
+  background: #710707;
+  border-radius: 0px;
+}
+
+.expert_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
+}
